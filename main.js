@@ -17,8 +17,8 @@ function setup() {
 function gotPoses(results){
     if(results.length   > 0){
         console.log(results);
-        eyex=results[0].pose.leftEye.x-15;
-        eyey=results[0].pose.leftEye.y-15;
+        eyex=results[0].pose.leftEye.x-60;
+        eyey=results[0].pose.leftEye.y-20;
 
         console.log("eye x = " +results[0].pose.leftEye.x);
         console.log("eye y = " +results[0].pose.leftEye.y);
